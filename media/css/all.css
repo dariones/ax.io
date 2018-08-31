@@ -36,7 +36,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	font-weight: normal;
 	font-family: 'Cantata One', sans-serif;
+	
 }
+p {
+    text-indent: 50px;
+}
+
+
+
 /* ---------------------------------- backgrounds all pages ----------------------------- */
 .cover {
 	-webkit-background-size: cover;
@@ -80,6 +87,13 @@ section, article, div {
 .wrapper-white {
 	background-color: #FFF;
 }
+ul {
+  list-style-position: outside;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
 /* ---------------------------------- header top ----------------------------- */
 #header-top {
 	text-align: center;
