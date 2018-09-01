@@ -10,6 +10,7 @@ body {
     text-align: center;
     font-size: 20px;
 	font-family: 'Cantata One', sans-serif;
+	color: rgba(94,93,82,1);
 	position: relative;
 	background-image: url('../pic/headpic.png');
     background-repeat: no-repeat;
@@ -98,28 +99,75 @@ section, article, div {
 	background-color: #FFF;
 }
 
-
 ul {
   list-style-position: outside;
 }
 hr.style1{
 	border-top: 1px solid #8c8b8b;
 }
-
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-}
-
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
+/* ---------------------------------- table ----------------------------- */
 
+.responsive-table {
+  width: 35%;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+.responsive-table tbody tr {
+  margin-bottom: 1em;
+  border: 2px solid #1d96b2;
+  display: table-row;
+  border-width: 1px;
+}
+
+.responsive-table tbody tr:last-of-type {
+  margin-bottom: 0;
+}
+.responsive-table tbody tr:nth-of-type(even) {
+    background-color: rgba(94, 93, 82, 0.1);
+  }
+  
+.responsive-table tbody th[scope="row"] {
+	background-color: #1d96b2;
+	color: white;  
+	background-color: transparent;
+    color: #5e5d52;
+    text-align: left;
+  }
+}
+.responsive-table tbody td {
+    border-bottom: 1px solid #1d96b2;
+	text-align: center;
+	text-align: right;
+}  
+  thead {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+  }
+   caption {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+   }
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
 
 /* ---------------------------------- header top ----------------------------- */
 #header-top {
