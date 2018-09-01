@@ -105,50 +105,27 @@ ul {
 hr.style1{
 	border-top: 1px solid #8c8b8b;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}	
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
-/* ---------------------------------- table ----------------------------- */
-a {
-  color: #337aa8;
-}
-a:hover, a:focus {
-  color: #4b8ab2;
-}
+/* ---------------------------------- header top ----------------------------- */
 
-.container {
-  margin: 5% 3%;
-}
-@media (min-width: 48em) {
-  .container {
-    margin: 2%;
-  }
-}
-@media (min-width: 75em) {
-  .container {
-    margin: 2em auto;
-    max-width: 75em;
-  }
-}
 
 .responsive-table {
-  width: 40%;
+  width: 45%;
   margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
-}
-@media (min-width: 48em) {
-  .responsive-table {
-    font-size: .9em;
-  }
-}
-@media (min-width: 62em) {
-  .responsive-table {
-    font-size: 1em;
-  }
+  
 }
 .responsive-table thead {
   position: absolute;
@@ -161,24 +138,12 @@ a:hover, a:focus {
   width: 1px;
   overflow: hidden;
 }
-@media (min-width: 48em) {
-  .responsive-table thead {
-    position: relative;
-    clip: auto;
-    height: auto;
-    width: auto;
-    overflow: auto;
-  }
-}
 .responsive-table thead th {
   background-color: #1d96b2;
   border: 1px solid #1d96b2;
   font-weight: normal;
   text-align: center;
   color: white;
-}
-.responsive-table thead th:first-of-type {
-  text-align: left;
 }
 .responsive-table tbody,
 .responsive-table tr,
@@ -224,25 +189,14 @@ a:hover, a:focus {
     padding: .75em;
   }
 }
-.responsive-table caption {
-  margin-bottom: 1em;
-  font-size: 1em;
-  font-weight: bold;
-  text-align: center;
-}
-@media (min-width: 48em) {
-  .responsive-table caption {
-    font-size: 1.5em;
+  .responsive-table tr {
+    display: table-row;
   }
 }
-.responsive-table tfoot {
-  font-size: .8em;
-  font-style: italic;
-}
-@media (min-width: 62em) {
-  .responsive-table tfoot {
-    font-size: .9em;
-  }
+.responsive-table th,
+.responsive-table td {
+  padding: .5em;
+  vertical-align: middle;
 }
 @media (min-width: 48em) {
   .responsive-table tbody {
@@ -310,6 +264,28 @@ a:hover, a:focus {
     content: none;
   }
 }
+
+  thead {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+  }
+   caption {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+   }
+
+
+
+
+
 
 /* ---------------------------------- header top ----------------------------- */
 #header-top {
