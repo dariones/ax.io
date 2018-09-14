@@ -153,6 +153,7 @@ hr.style1{
   padding: 0;
   text-align: left;
   white-space: normal;
+  color:#009900;
 }
 @media (min-width: 48em) {
   .responsive-table tr {
