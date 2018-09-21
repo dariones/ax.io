@@ -367,7 +367,7 @@ nav ul li+li {
 	margin: 0 auto;
 	display: block;
 	width: 70%;
-	max-width: 500px;
+	max-width: 310px;
 	height: auto;
 	text-align: center;
 }
@@ -375,10 +375,7 @@ nav ul li+li {
 	font-size: 1.3em;
 	margin: 20px auto 30px auto;
 }
-#start-info h3 {
-	font-size: 1.3em;
-	margin: 20px auto 30px auto;
-}
+
 #start-info p a {
 	padding: 10px 20px;
 	border: 2px solid #FFF;
@@ -386,8 +383,8 @@ nav ul li+li {
 	font-size: 0.8em;
 }
 #start-info p a:hover {
-	border: 2px solid #003250;
-	color: #003250;
+	border: 3px solid #ff1a1a;
+	color: #ff1a1a;
 }
 /* ---------------------------------- entry ----------------------------- */
 #entry {
