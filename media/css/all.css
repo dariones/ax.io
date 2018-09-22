@@ -93,6 +93,8 @@ section, article, div {
 	width: 100%;
 	max-width: 1200px;
 	min-height: 100%;
+	opacity:0.93;
+    filter:alpha(opacity=75);
 	
 }
 .wrapper-white {
